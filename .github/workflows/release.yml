@@ -22,7 +22,7 @@ jobs:
         run: |
           gh release delete v-latest --yes --cleanup-tag 2>/dev/null || true
           gh release create v-latest \
-            "工作记账.html#工作记账.html" \
+            "工作记账.html" \
             --title "工作记账 最新版" \
             --notes "自动生成于每次代码更新。下载 **工作记账.html** 发送到手机即可离线使用。" \
             --target main
